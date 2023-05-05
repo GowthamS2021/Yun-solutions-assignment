@@ -19,5 +19,7 @@ These are the requirements for this program and please use **Python 3.8.10** to 
 # Examples
 The program uses speech processing techniques as mentioned, in the question. Since, Machine Learning can't used given that only one file is the input for this program. So, I had to get few testcases on which I had tuned the classifier. there are 4 mp3 files for each of the emotions: happy, sad, angry. (Credits:[kaggle](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio?resource=download)) Each of these are in the folders happy, sad, angry respectively. 
 
+To run the examples, please download the entire repository and instead of filename please use filepath
+
 # How to run the program
 The way to run the program is given in the file itself.
