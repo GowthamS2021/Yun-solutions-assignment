@@ -3,6 +3,8 @@ this repository contains my solution for task-1 for round-2 assignment.
 
 The program uses speech processing techniques to get the pitch and few spectral quantities like spectral centriod, spectral rolloff and spectral flux or intensity. these spectral quantities can be used to fine the tone of the speaker. This program does not use machine learning or deep learning techniques because the input is a single file, whereas the input for the machine learning program should be a big dataset. 
 
+Since, it is not possible visually to show more than 3 emotions in a graph, I have used a discrete scale for each of the emotions. That is 4 for happy, 3 for sad, 2 for angry and 1 for neutral, meaning any other emotions other than these three. 
+
 # Requirements
 the program uses ffmpeg library for the pydub library which has to be installed
 
@@ -19,7 +21,9 @@ These are the requirements for this program and please use **Python 3.8.10** to 
 # Examples
 The program uses speech processing techniques as mentioned, in the question. Since, Machine Learning can't used given that only one file is the input for this program. So, I had to get few testcases on which I had tuned the classifier. there are 4 mp3 files for each of the emotions: happy, sad, angry. (Credits:[kaggle](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio?resource=download)) Each of these are in the folders happy, sad, angry respectively. 
 
-To run the examples, please download the entire repository and instead of filename please use filepath
+To run the examples, please download the entire repository and instead of filename please use filepath.
 
 # How to run the program
 The way to run the program is given in the file itself.
+
+Since, it is not possible visually to show more than 3 emotions in a graph, I have used a discrete scale for each of the emotions. That is 4 for happy, 3 for sad, 2 for angry and 1 for neutral, meaning any other emotions other than these three. 
